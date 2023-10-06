@@ -27,5 +27,89 @@ p{
 a{
     font-family: 'Courier Prime', monospace;
     font-size: 16px;
+    text-decoration: none;
+    color: #1e1e1e;
 }
 
+
+
+
+/*                  Desktop nav           */
+
+
+nav{
+    background-color: #FFEAEA;
+}
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1240px;
+    margin: auto;
+    position: relative;
+    padding: 16px;
+}
+
+.links-wrapper{
+    display: flex;
+    gap: 20px;
+}
+
+nav ul{
+    display: none;
+    list-style: none;
+    position: absolute;
+    background-color: #FF8282;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+    top: 4.2rem;
+    height: 0;
+}
+
+nav label{
+    cursor: pointer;
+}
+
+nav ul li{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.android-links{
+    color: #fff;
+    padding: 20px;
+    margin-top: 8px;
+}
+
+#trigger{
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .desktop-nav-container{
+        display: none;
+    }
+
+    ul{
+        transition: 1s ease;
+        border-radius: 0 0 12px 12px;
+    }
+
+    #trigger:checked~ul{
+            height: 14rem;
+    }
+
+    ul li a{
+        opacity: 0;
+        transition: 1s ease .5s;
+    }
+
+    #trigger:checked~ul li a{
+        opacity: 1;
+    }
+
+    
+}
