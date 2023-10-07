@@ -182,8 +182,15 @@ ul li{
 
 .hero-img-wrapper img{
     width: 100%;
-    margin-top: -50px;
+    /* margin-top: -50px; */
+    /* animation: hero-img 200ms timing-function delay infinite direction fill-mode; */
 }
+
+
+/* @keyframes hero-img{
+    from{margin-top: -50px;}
+    to{margin-top: -25px;}
+} */
 
 
 
