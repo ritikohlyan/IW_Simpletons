@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap');
 
+
+html{
+    scroll-behavior: smooth;
+}
+
+.form-section {
+    scroll-margin-top: 50px;
+  }
+
 *{
     margin: 0;
     box-sizing: border-box;
@@ -378,7 +387,7 @@ ul li{
 .form-section{
     padding: 4rem 0;
     border-top: 1px solid #dadada;
-
+    scroll-behavior: smooth;
 }
 
 .form-sec-wrapper{
