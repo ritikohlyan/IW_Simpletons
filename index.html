@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Book Wagon</title>
+    <title>TheBookWagon</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
 </head>
@@ -11,45 +11,302 @@
     
     <header>
 
-        <nav>
 
-            <div class="nav-container">
 
-                <a href="" class="logo-wrapper">
-                    <img src="/images/logo-pink.svg" alt="The Book Wagon logo">
-                </a>
-    
-                <div class="desktop-nav-container">
-    
+
+            <!--                            Nav                              -->
+
+
+            <nav>
+
+                <div class="container">
+
+                    <div class="nav-items-wrapper">
+        
+                        <div class="logo-conainer">
+        
+                            <a href="#" class="logo">
+                                <img src="/images/logo-pink.svg" alt="">
+                            </a>
+                        
+                        </div>
+
+                        <div class="menu-wrapper">
+
+                            <input type="checkbox" id="toggle">
+                            <label for="toggle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30"><path d="M3 4H21V6H3V4ZM9 11H21V13H9V11ZM3 18H21V20H3V18Z" fill="rgba(255,130,130,1)"></path></svg></label>
+
+                            <ul>
+
+                                <li><a href="/">Home</a></li>
+                                <li><a href="about-us.html">About us</a></li>
+                                <li><a href="#contact-us">Contact us</a></li>
+
+                            </ul>
+
+                        </div>
                     
-                    <div class="links-wrapper">
-    
-                        <a href="">Home</a>
-                        <a href="">About us</a>
-                        <a href="">Contact us</a>
-    
+                        <div class="nav-links-container">
+        
+                        <a href="/" class="nav-links">Home</a>
+                        <a href="about-us.html" class="nav-links">About us</a>
+                        <a href="#contact-us" class="nav-links">Contact us</a>
+        
+                        </div>
+        
                     </div>
-    
                 </div>
+            </nav>
 
-                <div class="android-nav-wrapper">
-                    <input type="checkbox" id="trigger">
-                    <label for="trigger"><i class="ri-menu-3-line"></i></label>
-                    <ul>
+            
+
+
+
+
+
+            <!--                             Hero Section                              -->
+
+            <section class="hero-section">
+                <div class="container">
+
+                    <div class="hero-flex-wrapper">
+                        <div class="left-content">
+                            <h1 class="hero-heading">Unlock Your Academic Potential with Essential Course Materials!</h1>
+                            <p>Ace your semesters with the books that are meant for you</p>
+                            <a href="" class="hero-btn">View Collection</a>
+                        </div>
+                        <div class="right-content">
     
-                        <li><a href=""  class="android-links">Home</a></li>
-                        <li><a href="" class="android-links">About us</a></li>
-                        <li><a href="" class="android-links">Contact us</a></li>
+                            <div class="hero-img-wrapper">
+                                <img src="/images/hero-img.svg" alt="">
+                            </div>
     
-                    </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        
+    </header>
+
+
+    <!--           Year section                  -->
+
+    <section class="year-section">
+        
+        <h2 class="year-sec-head">Select your Year</h2>
+        
+        <div class="year-wrapper">
+
+            <div class="container">
+
+                <div class="year-flex-wrapper">
+
+                    <a class="card-link" href="">
+                        <div class="card">
+                            <h3 class="card-head">1st YEAR</h3>
+                            <p class="card-text">Click to view</p>
+                        </div>
+                    </a>
+
+                    <a class="card-link" href="">
+                        <div class="card">
+                            <h3 class="card-head">2nd YEAR</h3>
+                            <p class="card-text">Click to view</p>
+                        </div>
+                    </a>
+
+                    <a class="card-link" href="">
+                        <div class="card">
+                            <h3 class="card-head">3rd YEAR</h3>
+                            <p class="card-text">Click to view</p>
+                        </div>
+                    </a>
+
+                    <a class="card-link" href="">
+                        <div class="card">
+                            <h3 class="card-head">4th YEAR</h3>
+                            <p class="card-text">Click to view</p>
+                        </div>
+                    </a>
 
                 </div>
 
             </div>
 
-        </nav>
+        </div>
 
-    </header>
+    </section>
+
+
+
+
+    <!--           About us Section              -->
+
+    <section class="about-us-section">
+
+        <div class="container">
+
+            <div id="about-display-block" class="about-us-flex-wrapper">
+
+                <div class="about-us-left">
+                    <p>About</p>
+                    <img src="/images/logo-pink.svg" alt="TheBookWagon logo">
+                </div>
+
+                <div class="about-us-right">
+                    <div class="about-img-wrapper">
+                        <img class="about-img-1" src="/images/about-us-img-1.svg" alt="girl reading">
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="about-flex-direction" class="about-us-flex-wrapper">
+
+                <div class="about-us-right-2">
+                    <div class="about-img-wrapper">
+                        <img src="/images/about-us-img-2.svg" alt="boy reading">
+                    </div>
+                </div>
+
+                <div class="about-us-left">
+                    <p class="about-para">
+                        TheBookWagon is a initative to help students to get all of there course books at one stop without the need to search for them from the vast ocean of books on the internet.
+                    </p>
+
+                    <a class="learn-more-link" href="">Learn more <i class="ri-arrow-right-line"></i></a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!--           Testimonial section              -->
+
+    <section class="testimonial-section">
+
+        <div class="container">
+
+            <div class="slider-centre">
+
+                <div class="slider-wrapper">
+
+                    <div class="slides">
+        
+                        <div id="card1" class="slide1">
+                            <p class="testimonial">Lorem ipsum dolor sit amet consectetur. Adipiscing vitae scelerisque libero augue blandit volutpat nam. Iaculis urna mi aliquet aliquam. Tempor enim hendrerit lectus nunc viverra nunc. Libero enim cras habitant nulla sed neque quis pharetra arcu.</p>
+                        </div>
+    
+                        <div id="card2" class="slide2">
+                            <p class="testimonial">Adipiscing vitae scelerisque libero augue blandit volutpat nam. Iaculis urna mi aliquet aliquam. Tempor enim hendrerit lectus nunc viverra nunc. Libero enim cras habitant nulla sed neque quis pharetra arcu.</p>
+                        </div>
+    
+                        <div id="card3" class="slide3">
+                            <p class="testimonial">Libero enim cras habitant nulla sed neque quis pharetra arcu.</p>
+                        </div>
+    
+                        <div id="card4" class="slide4">
+                            <p class="testimonial">Iaculis urna mi aliquet aliquam. Tempor enim hendrerit lectus nunc viverra nunc. Libero enim cras habitant nulla sed neque quis pharetra arcu.</p>
+                        </div>
+        
+                    </div>
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="slider-nav">
+
+            <a href="#card1"></a>
+            <a href="#card2"></a>
+            <a href="#card3"></a>
+            <a href="#card4"></a>
+
+        </div>
+
+    </section>
+
+
+
+
+    <!--          Form Section               -->
+
+    <section class="form-section">
+
+        <div class="container">
+
+            <div class="form-sec-wrapper">
+
+                <div class="form-sec-content">
+                    <h2 class="form-sec-head">Have any query?</h2>
+                    <p>To reach us ,fill this following form.
+                        Feel free to contact us!.</p>
+    
+                    <div class="form-wrapper">
+    
+                        <form action="https://formsubmit.co/ohlyanritik1@gmail.com" method="POST">
+    
+                            <input type="text" name="name" id="user-name" placeholder="Your name">
+                            <input type="email" name="email" id="user-email" placeholder="Email">
+                            <textarea class="message-box" name="message" id="user-message" placeholder="Message" cols="30" rows="10"></textarea>
+                            <input class="form-submit-btn" type="submit" value="Send Message">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_next" value="https://ritikohlyan.github.io/the-book-wagon-test/thankyou-page.html">
+                            
+                        </form>
+    
+                    </div>
+    
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <footer id="contact-us" class="footer-section">
+
+        <!-- <div class="container"> -->
+
+            <div class="footer-wrapper-flex">
+
+                <div class="footer-wrapper">
+
+                    <a href="" class="footer-logo-wrapper">
+                        <img src="footer-logo.svg" alt="">
+                        
+                    </a>
+    
+                    <div class="footer-links-wrapper">
+    
+                        <a href="#" class="footer-links">Home</a>
+                        <a href="#" class="footer-links">Books</a>
+                        <a href="#" class="footer-links">About us</a>
+                        <a href="#" class="footer-links">Contact us</a>
+    
+                    </div>
+    
+                    <div class="copyright-text-wrapper">
+                        <p class="copyright">&#169; 2023 TheBookWagon. All rights reserved.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        <!-- </div> -->
+
+    </footer>
 
 </body>
 </html>
